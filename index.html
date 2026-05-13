@@ -38,21 +38,61 @@
 		<article id="Couleur">
 			<h1>couleur</h1>
 
+			<script src="swatches.js"></script>
+
 			<DIV class="COLOR">
 					<H3>«Bleu electrique»</H3>
-					<div class="swatch" style="background: #2d358c"></div>
-					<p class="label">#2d358c</p>
-					<p class="label"> rgb 123, 2332, 233</p>
-					<p class="label"> cemjn 100% 22% 22% 22% </p>
+					<div class="swatch" style="background: var(--color);"></div>
+					<p class="label" data-color-format="hsl"></p>
+					<p class="label" data-color-format="hex"></p>
+					<p class="label" data-color-format="rgb"></p>
+					<p class="label" data-color-format="lab"></p>
+					<p class="label" data-color-format="cmyk"></p>
+
 			</DIV>
 
 			<DIV class="COLOR">
 					<H3>«BLING BLING»</H3>
 					<div class="swatch" style="background: #ccc"></div>
-					<p class="label">#2d358c</p>
-					<p class="label"> rgb 123, 2332, 233</p>
-					<p class="label"> cemjn 100% 22% 22% 22% </p>
+					<p class="label" data-color-format="hsl"></p>
+					<p class="label" data-color-format="hex"></p>
+					<p class="label" data-color-format="rgb"></p>
+					<p class="label" data-color-format="lab"></p>
+					<p class="label" data-color-format="cmyk"></p>
+
 			</DIV>
+
+			
+			<div class="color">
+
+				<h3>mix</h3>
+				<div class="swatch" style="background:color-mix(in srgb,var(--color),#ccc)""></div>
+				<p class="label" data-color-format="hsl"></p>
+					<p class="label" data-color-format="hex"></p>
+					<p class="label" data-color-format="rgb"></p>
+					<p class="label" data-color-format="lab"></p>
+					<p class="label" data-color-format="cmyk"></p>
+
+			
+		</div> 
+
+		<div class="color">
+
+				<h3>azul oscuro</h3>
+				<div class="swatch" style="background-color:hsl(from var(--color) h 100 33% ) ;"></div>
+				<p class="label" data-color-format="hsl"></p>
+					<p class="label" data-color-format="hex"></p>
+					<p class="label" data-color-format="rgb"></p>
+					<p class="label" data-color-format="lab"></p>
+					<p class="label" data-color-format="cmyk"></p>
+
+			
+		</div> 
+
+
+	
+		
+			
 
 		</article>
 	
