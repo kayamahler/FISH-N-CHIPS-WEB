@@ -1,5 +1,9 @@
 
 
+* { box-sizing: border-box; }
+
+img { max-width: 100%;}
+
 :root {
 	--color: #2d358c
 	
@@ -18,4 +22,20 @@ h1 {
 	font-size: 8vw;
 }
 
+/* mise en page -colonnes  */
+.row { 
+	display: flex;
+	gap: 1rem 
 
+}
+
+/* systeme de mise en pages en colonnes ! */
+.row {display: flex; gap: 1rem;}
+.row > *{ flex: 1;}  
+
+@media (max-width: 800px) {
+	.row{
+		flex-direction: column ;
+	}
+
+}

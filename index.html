@@ -28,10 +28,51 @@
 			padding-top: 0.5rem ;
 			margin-top: 0.5rem;
 		}
+
+		.color  h3{ 
+			outline: 1px solid magenta;
+		}
 	</style>
 </head>
 <body>
-	<img src="LOGO.svg" alt="logo fish and chips" >
+	<section id="identite">
+		<article id="logo">
+			<h2>LOGO</h2>
+			<img src="LOGO.svg" alt="logo fish and chips" >
+		</article>
+
+		<article id="truck">
+			<h2>truck</h2>
+			<img src="FOODTRUCK_MOCKUP_2_.jpg" alt="image du truck">
+		</article> 
+
+		<article id="web">
+			<H2>Maquette site web</H2>
+
+			<div class="row">
+				<div>
+					<h3> page d'acceuil</h3>
+						<img src="SITEWEB_FIGMA.jpg" alt="maquette">
+				</div>
+
+				<div>
+					<h3> MENU</h3>
+						<img src="SITEWEB_FIGMA.jpg" alt="maquette">
+				</div>
+
+				<div>
+					<h3> HORAIRES</h3>
+						<img src="SITEWEB_FIGMA.jpg" alt="maquette">
+				</div>
+
+			</div><!-- fin.row -->
+
+			
+
+		</article>
+
+	</section>
+	
 	<h1></h1>
 
 	<section id="CharteGraphique">
@@ -40,6 +81,7 @@
 
 			<script src="swatches.js"></script>
 
+		<div class="row">
 			<DIV class="COLOR">
 					<H3>«Bleu electrique»</H3>
 					<div class="swatch" style="background: var(--color);"></div>
@@ -63,7 +105,7 @@
 			</DIV>
 
 			
-			<div class="color">
+			<div class="COLOR">
 
 				<h3>mix</h3>
 				<div class="swatch" style="background:color-mix(in srgb,var(--color),#ccc)""></div>
@@ -76,18 +118,19 @@
 			
 		</div> 
 
-		<div class="color">
+				<div class="COLOR">
 
-				<h3>azul oscuro</h3>
-				<div class="swatch" style="background-color:hsl(from var(--color) h 100 33% ) ;"></div>
-				<p class="label" data-color-format="hsl"></p>
-					<p class="label" data-color-format="hex"></p>
-					<p class="label" data-color-format="rgb"></p>
-					<p class="label" data-color-format="lab"></p>
-					<p class="label" data-color-format="cmyk"></p>
+					<h3>azul oscuro</h3>
+					<div class="swatch" style="background-color:hsl(from var(--color) h 100 33% ) ;"></div>
+					<p class="label" data-color-format="hsl"></p>
+						<p class="label" data-color-format="hex"></p>
+						<p class="label" data-color-format="rgb"></p>
+						<p class="label" data-color-format="lab"></p>
+						<p class="label" data-color-format="cmyk"></p>
 
-			
-		</div> 
+					
+				</div> 
+			</div><!-- fin.row -->
 
 
 	
